@@ -42,6 +42,15 @@ Layout desenvolvido por André Rodrigues (Xor)
     color: #fff;
     text-decoration: none;
 }
+.button1{
+    color: #333;
+    border-bottom: 0.1rem solid #333;
+    padding: 1rem;
+}
+.button1:hover{
+    color: #000;
+    text-decoration: none;
+}
 /*Header*/
 header{
     background-color: #159957;
@@ -98,7 +107,7 @@ nav ul a:hover{
     color: #333!important;
     text-decoration: none;
 }
-nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
+nav ul a:first-child{border-bottom: 0.1rem solid #ff5252;}
 @media(min-width: 768px){
     nav ul{       
         float: right;
