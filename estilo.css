@@ -32,6 +32,16 @@ Layout desenvolvido por André Rodrigues (Xor)
 */
 
 *{margin: 0;padding: 0;}
+/*Objetos-min*/
+.button{
+    color: #fff;
+    border-bottom: 0.1rem solid #fff;
+    padding: 1rem;
+}
+.button:hover{
+    color: #fff;
+    text-decoration: none;
+}
 /*Header*/
 header{
     background-color: #159957;
@@ -88,6 +98,18 @@ nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
 }
 /*Section*/
 section .container{padding: 4rem 0;}
+.livros{
+    background-color: #ff5252;
+    color: #fff;
+    height: 70vh;
+}
+.livros h2{
+    font-size: 6rem;
+}
+.livros p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
 section h2{
     font-family: 'PT Sans', sans-serif;
 }
@@ -99,7 +121,7 @@ section p{
 /*Divs*/
 .centro{
     margin: 0 auto;
-    width: 75%;
+    width: 90%;
 }
 /*Footer*/
 footer{
@@ -113,5 +135,10 @@ footer h3{
 }
 .bellow{    
     color: #000;
+    padding: 1rem;
     text-align: center;
+}
+/*mídias*/
+iframe{
+    width: 100%;   
 }
