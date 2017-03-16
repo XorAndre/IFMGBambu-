@@ -66,18 +66,21 @@ nav ul{
 }
 nav ul a{
     color: #ff5252;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
     display: inline-block;
-    padding: 0.8rem;
+    margin: 0.80rem;
+    padding: 0 0.8rem;
 }
 nav ul a:hover{
     color: #333;
     text-decoration: none;
 }
+nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
 @media(min-width: 768px){
     nav ul{
         float: right;
-        width: 18vw;
+        width: 35vw;
     }
 }
 /*Section*/
