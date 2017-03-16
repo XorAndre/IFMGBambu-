@@ -57,15 +57,18 @@ header p{
 }
 /*Menu*/
 nav{
+    background-color: #fff;
     height: 8vh;
     padding: 1rem;
+    position: fixed;
     width: 100%;
+    z-index: 1;
 }
 nav ul{    
     width: 100%;
 }
 nav ul a{
-    color: #ff5252;
+    color: #a0a0a0;
     font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
     display: inline-block;
@@ -73,7 +76,7 @@ nav ul a{
     padding: 0 0.8rem;
 }
 nav ul a:hover{
-    color: #333;
+    color: #333!important;
     text-decoration: none;
 }
 nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
