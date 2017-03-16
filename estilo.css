@@ -138,7 +138,7 @@ section p{
     font-size: 1.6rem;
 }
 @media(min-width: 768px){
-    .livros{height: 56%;}
+    .livros{height: 70vh;}
     .livros h2{
         font-size: 6rem;
     }
