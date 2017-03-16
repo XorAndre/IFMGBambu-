@@ -67,23 +67,32 @@ header p{
 }
 /*Menu*/
 nav{
-    background-color: #fff;
-    height: 8vh;
+    background-color: #fff!important;
+    height: 9vh;
     padding: 1rem;
     position: fixed;
     width: 100%;
     z-index: 1;
 }
-nav ul{    
+.navbar-brand{
+    font-size: 4rem!important;
+    position: relative;
+    bottom: 1.8rem;
+}
+.navbar-toggle{border: none; background-color: none;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ background-color: #fff;}
+    
+nav ul{   
+    background-color: #fff;
     width: 100%;
 }
 nav ul a{
     color: #a0a0a0;
     font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
-    display: inline-block;
+    display: block;
     margin: 0.80rem;
-    padding: 0 0.8rem;
+    padding: 0.90rem 0.8rem;
 }
 nav ul a:hover{
     color: #333!important;
@@ -91,10 +100,11 @@ nav ul a:hover{
 }
 nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
 @media(min-width: 768px){
-    nav ul{
+    nav ul{       
         float: right;
         width: 35vw;
     }
+    nav ul a{display: inline;}
 }
 /*Section*/
 section .container{padding: 4rem 0;}
