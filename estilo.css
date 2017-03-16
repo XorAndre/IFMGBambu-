@@ -110,8 +110,7 @@ nav ul a:last-child{border-bottom: 0.1rem solid #ff5252;}
 section .container{padding: 4rem 0;}
 .livros{
     background-color: #ff5252;
-    color: #fff;
-    height: 92vh;
+    color: #fff;   
 }
 .livros h2{
     font-size: 3.8rem;
