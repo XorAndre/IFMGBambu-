@@ -34,12 +34,12 @@ Layout desenvolvido por André Rodrigues (Xor)
 *{margin: 0;padding: 0;}
 /*Objetos-min*/
 .button{
-    color: #fff;
+    color: #ff5252;
     border-bottom: 0.1rem solid #fff;
     padding: 1rem;
 }
 .button:hover{
-    color: #fff;
+    color: #ff5252;
     text-decoration: none;
 }
 .button1{
@@ -118,8 +118,8 @@ nav ul a:first-child{border-bottom: 0.1rem solid #ff5252;}
 /*Section*/
 section .container{padding: 4rem 0;}
 .livros{
-    background-color: #ff5252;
-    color: #fff;
+    background-color: #f7f7f7;
+    color: #ff5252;
     height: 92vh;
 }
 .livros h2{
