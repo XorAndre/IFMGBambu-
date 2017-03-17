@@ -120,7 +120,7 @@ section .container{padding: 4rem 0;}
 .livros{
     background-color: #f7f7f7;
     color: #ff5252;
-    height: 92vh;
+    height: auto;
 }
 .livros h2{
     font-size: 3.8rem;
